@@ -9,6 +9,6 @@ public class RadiansToDegrees {
         double radians = Double.parseDouble(scan.nextLine());
         double degrees = radians * 180 / Math.PI;
 
-        System.out.printf("%f", degrees);
+        System.out.printf("%.0f", degrees);
     }
 }
